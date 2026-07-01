@@ -5,5 +5,3 @@ __pycache__/
 .venv/
 *.png
 .DS_Store
-Nat_Gas.csv
-natural_gas_estimator.py
