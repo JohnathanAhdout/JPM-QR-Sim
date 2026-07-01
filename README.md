@@ -10,7 +10,7 @@ Across these scripts, I implemented and validated several core modeling workflow
 - Evaluated model performance using stratified cross-validation and ROC-AUC to assess out-of-sample discrimination quality.
 - Extended the credit-risk workflow with a FICO score quantization approach that uses dynamic programming and a log-likelihood objective to create categorical rating bands from continuous credit scores, enabling compatibility with categorical-model architectures.
 - Estimated expected loss (EL) using the standard credit-risk formulation $EL = PD \times EAD \times (1 - RR)$, using a recovery-rate assumption to translate default probabilities into loss estimates.
-- Developed a time-series natural-gas pricing workflow that loads historical price data, fits a trend-plus-seasonal model, and uses sine/cosine terms to capture recurring seasonal structure.
+- Developed a time-series natural-gas pricing workflow that loads historical price data, fits a trend-plus-seasonal AR(1) model, and uses sine/cosine terms to capture recurring seasonal structure.
 - Implemented a storage-contract valuation prototype that models inventory evolution, purchase and withdrawal events, storage costs, and fees to estimate the economic value of a natural-gas storage position.
 
 ## Files
